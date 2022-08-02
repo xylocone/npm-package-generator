@@ -9,6 +9,9 @@ export async function installDependencies(targetDir) {
     await execaCommand("npm install", {
       cwd: targetDir,
     });
+    await execaCommand("npx --no husky install", {
+      cwd: targetDir,
+    });
   } catch (e) {
     console.error(e.stderr);
     throw e;
