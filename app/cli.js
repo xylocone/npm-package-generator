@@ -14,7 +14,7 @@ const tasks = new TaskRunner();
 const program = new Command();
 
 program
-  .name("npm-package-generator")
+  .name("npm-pkg-gen")
   .description("Scaffold an npm package")
   .version(await getCurrentVersion())
   .argument("<package-name>", "Package Name")

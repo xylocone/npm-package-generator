@@ -1,9 +1,9 @@
 {
-  "name": "npm-package-generator",
-  "version": "1.0.0",
+  "name": "npm-pkg-gen",
+  "version": "0.0.0-development",
   "type": "module",
   "bin": {
-    "npm-package-generator": "./app/cli.js",
+    "npm-pkg-gen": "./app/cli.js",
     "npg": "./app/cli.js"
   },
   "main": "index.js",

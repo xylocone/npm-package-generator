@@ -1,1 +1,1 @@
-console.log("Generated with npm-package-generator");
+console.log("Generated with npm-pkg-gen");

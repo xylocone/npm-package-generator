@@ -1,6 +1,6 @@
-![Logo](https://xylocone.files.wordpress.com/2022/08/npm-package-generator.png)
+![Logo](https://xylocone.files.wordpress.com/2022/08/npm-pkg-gen.png)
 
-# npm-package-generator
+# npm-pkg-gen
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
@@ -14,16 +14,16 @@
 
 ## Installation
 
-Install npm-package-generator with npm
+Install npm-pkg-gen with npm
 
 ```sh
-npm install -g npm-package-generator
+npm install -g npm-pkg-gen
 ```
 
 Or with Yarn, if you prefer that:
 
 ```sh
-yarn global add npm-package-generator
+yarn global add npm-pkg-gen
 ```
 
 ## Usage
