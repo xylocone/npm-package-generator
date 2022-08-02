@@ -8,6 +8,9 @@
   },
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@root/walk": "^1.1.0",
     "chalk": "^5.0.1",
