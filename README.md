@@ -32,6 +32,8 @@ To scaffold a package:
 npg <package-name>
 ```
 
+**NOTE**: You must make sure that the package name you provide is available on the [npm registry](https://npmjs.com). If the package name you provide is taken, you won't immediately get an error, but your CI job will fail later.
+
 Once the package has been scaffolded, you need to initialize a git repository in your project (`git init`) and add a Github remote repo. Then, you need to create two Github repo secrets to complete the configuration:
 
 1.  `GH_TOKEN` &ndash; This is supposed to contain a Github Personal Access Token. [Here's](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) how you can make one. Make sure to make it permissive enough (might as well check all the boxes if you are unsure).
