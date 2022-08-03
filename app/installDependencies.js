@@ -12,7 +12,7 @@ export async function installDependencies(targetDir) {
     await execaCommand("npm install", {
       cwd: targetDir,
     });
-    await execaCommand("npx --no husky install", {
+    await execaCommand("npm run prepare", {
       cwd: targetDir,
     });
 
