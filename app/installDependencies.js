@@ -17,9 +17,7 @@ export async function installDependencies(targetDir) {
     });
 
     info(
-      `Now, you need to initialize a git repository in your project (${highlight(
-        `git init`
-      )}) and add a Github remote repo. Then, you need to create two Github repo secrets to complete the configuration:`
+      `Now, you need to add a Github remote repo. Then, you need to create two Github repo secrets to complete the configuration:`
     );
 
     info(
