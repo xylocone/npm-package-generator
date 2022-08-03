@@ -39,6 +39,8 @@ Once the package has been scaffolded, you need to initialize a git repository in
 1.  `GH_TOKEN` &ndash; This is supposed to contain a Github Personal Access Token. [Here's](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) how you can make one. Make sure to make it permissive enough (might as well check all the boxes if you are unsure).
 2.  `NPM_TOKEN` &ndash; This one is supposed to contain an npm automation token. Check out [this guide](https://docs.npmjs.com/creating-and-viewing-access-tokens/) to know how to make one.
 
+**NOTE**: Whenever you make a commit, you must use `git cz` instead of `git commit`.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
