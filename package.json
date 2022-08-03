@@ -12,6 +12,17 @@
     "test": "jest",
     "prepare": "husky install"
   },
+  "keywords": [
+    "scaffolding",
+    "utility",
+    "scaffold-generator",
+    "npm-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xylocone/npm-pkg-gen.git"
+  },
+  "homepage": "https://github.com/xylocone/npm-pkg-gen",
   "dependencies": {
     "@root/walk": "^1.1.0",
     "chalk": "^5.0.1",
